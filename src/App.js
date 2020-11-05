@@ -1,4 +1,3 @@
-import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { Home, Contact, Projects } from "./pages";
@@ -6,15 +5,25 @@ import { Home, Contact, Projects } from "./pages";
 const App = () => {
   return (
     <Router>
-      <div className="App">
-        <header>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        <header
+          style={{
+            height: "10vh",
+            backgroundColor: "silver",
+          }}
+        >
           <div
             style={{
               display: "flex",
               justifyContent: "space-between",
               alignItems: "center",
               flexDirection: "row",
-              margin: "0 15px 0 15px",
+              margin: "15px 15px 0 15px",
             }}
           >
             <div>
@@ -42,8 +51,22 @@ const App = () => {
             </div>
           </div>
         </header>
-        <body>
-          <div className="Card">
+        <body
+          style={{
+            height: "85vh",
+            backgroundColor: "whitesmoke",
+          }}
+        >
+          <div
+            style={{
+              margin: "10px",
+              height: "90%",
+              background: "#dde1e7",
+              borderRadius: "5px",
+              boxShadow:
+                "-3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945)",
+            }}
+          >
             <Switch>
               <Route exact path="/">
                 <Home />
@@ -57,7 +80,12 @@ const App = () => {
             </Switch>
           </div>
         </body>
-        <footer></footer>
+        <footer
+          style={{
+            height: "5vh",
+            backgroundColor: "silver",
+          }}
+        ></footer>
       </div>
     </Router>
   );
