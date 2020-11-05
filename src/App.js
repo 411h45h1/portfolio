@@ -32,19 +32,31 @@ const App = () => {
             <div>
               <Link
                 to="/"
-                style={{ marginRight: "10px", textDecoration: "none" }}
+                style={{
+                  marginRight: "10px",
+                  textDecoration: "none",
+                  fontSize: 20,
+                }}
               >
                 Home
               </Link>
               <Link
                 to="/projects"
-                style={{ marginRight: "10px", textDecoration: "none" }}
+                style={{
+                  marginRight: "10px",
+                  textDecoration: "none",
+                  fontSize: 20,
+                }}
               >
                 Projects
               </Link>
               <Link
                 to="/contact"
-                style={{ marginRight: "10px", textDecoration: "none" }}
+                style={{
+                  marginRight: "10px",
+                  textDecoration: "none",
+                  fontSize: 20,
+                }}
               >
                 Contact
               </Link>
@@ -65,6 +77,7 @@ const App = () => {
               borderRadius: "5px",
               boxShadow:
                 "-3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945)",
+              padding: "20px",
             }}
           >
             <Switch>
