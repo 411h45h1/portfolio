@@ -23,8 +23,8 @@ const HomeSection = ({
         <img
           style={{
             position: "relative",
-            width: "170px",
-            height: "170px",
+            width: mobile ? "50%" : "170px",
+            height: mobile ? "50%" : "170px",
             borderRadius: "20%",
             boxShadow:
               "-3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945)",

@@ -7,8 +7,8 @@ const Home = () => {
     <>
       <Media at="mobile">
         <HomeSection
-          flexDirection="column"
           mobile
+          flexDirection="column"
           bodyTextSize={17}
           skillTitleSize={19}
         />
