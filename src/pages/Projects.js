@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import { Card } from "semantic-ui-react";
 import { ProjectSection } from "../components";
+import resumeData from "../resumeData";
 
 const Projects = () => {
   let { path, url } = useRouteMatch();
@@ -24,43 +25,18 @@ const Projects = () => {
           padding: "5px",
         }}
       >
-        <Link to={`${url}/1`} style={{ marginRight: "50px" }}>
-          Project 1
-        </Link>
-        <Link to={`${url}/2`} style={{ marginRight: "50px" }}>
-          Project 2
-        </Link>
-        <Link to={`${url}/3`} style={{ marginRight: "50px" }}>
-          Project 3
-        </Link>
-        <Link to={`${url}/4`} style={{ marginRight: "50px" }}>
-          Project 4
-        </Link>
-        <Link to={`${url}/5`} style={{ marginRight: "50px" }}>
-          Project 5
-        </Link>
-        <Link to={`${url}/6`} style={{ marginRight: "50px" }}>
-          Project 6
-        </Link>
-        <Link to={`${url}/7`} style={{ marginRight: "50px" }}>
-          Project 7
-        </Link>
-        <Link to={`${url}/8`} style={{ marginRight: "50px" }}>
-          Project 8
-        </Link>
-        <Link to={`${url}/9`} style={{ marginRight: "50px" }}>
-          Project 9
-        </Link>
-        <Link to={`${url}/10`} style={{ marginRight: "50px" }}>
-          Project 10
-        </Link>
+        {resumeData.portfolio.map((i) => (
+          <Link to={`${url}/${i.name}`} style={{ marginRight: "50px" }}>
+            {i.name}
+          </Link>
+        ))}
       </Card>
 
       <Switch>
         <Route exact path={path}>
-          <h3>Please select a project.</h3>
+          <h3>Please select a project above.</h3>
         </Route>
-        <Route path={`${path}/:projectId`}>
+        <Route path={`${path}/:projectName`}>
           <ProjectSection />
         </Route>
       </Switch>

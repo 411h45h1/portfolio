@@ -1,4 +1,4 @@
-let resumeData = {
+const resumeData = {
   name: "Ahmed Ali",
   linkedinId: "Your LinkedIn Id",
   email: "ahmedali.96@hotmail.com",
@@ -78,109 +78,111 @@ let resumeData = {
   ],
   portfolio: [
     {
-      projectId: 1,
-      name: "Our Ends for Android",
+      name: "Our Ends",
       description: " This is the ios app version of ourends.ca",
-      imgurl: `https://media.giphy.com/media/Y4bzv6DYbYzy8jDnoW/giphy.gif`,
-      repourl:
-        "https://play.google.com/store/apps/details?id=com.ourends.ourendsapp",
+      url: null,
+      repourl: null,
+      android: {
+        imgurl: `https://media.giphy.com/media/Y4bzv6DYbYzy8jDnoW/giphy.gif`,
+        repourl: null,
+        url:
+          "https://play.google.com/store/apps/details?id=com.ourends.ourendsapp",
+      },
+      ios: {
+        imgurl: `https://media.giphy.com/media/3og0IPZcpT7hyEZ7nW/giphy.gif`,
+        repourl: null,
+        url: "https://apps.apple.com/us/app/our-ends/id1537892808",
+      },
     },
+
     {
-      projectId: 1,
-      name: "Our Ends for ios",
-      description: "This is the ios app version of ourends.ca",
-      imgurl: `https://media.giphy.com/media/3og0IPZcpT7hyEZ7nW/giphy.gif`,
-      repourl: "https://apps.apple.com/us/app/our-ends/id1537892808",
-    },
-    {
-      projectId: 2,
       name: "Blog App",
       description:
         "This project uses React Native to display the contents of a blog and Electron to act as the content managemnet system.",
       imgurl: `https://i.imgur.com/1irEscM.gif`,
       repourl: "https://github.com/AhmedAlihashi/blog",
+      url: null,
     },
     {
-      projectId: 3,
       name: "Noted",
       description:
         "This project is a note taking application that uses Google Firebase Auth to provide user authentication and Firestore as a database solution.",
       imgurl: `https://media3.giphy.com/media/JmJlebKKwiJYmmpQGZ/giphy.gif?cid=ecf05e47uochwyhgvl4pqz1yg882t1clco02jbkwa36m29xt&rid=giphy.gif`,
       repourl: "https://github.com/AhmedAlihashi/noted",
+      url: "https://noted-55f73.web.app",
     },
     {
-      projectId: 4,
-
       name: "The New York Times Snapshot",
       description:
         "This is an app that displays the most viewed,shared and emailed articles of the last 30 days from The New York Times using their api.",
       imgurl: `https://media3.giphy.com/media/kI91JqYXz3I8DFs5fx/giphy.gif`,
       repourl: "https://github.com/AhmedAlihashi/nytimes",
+      url: "https://ahmedalihashi.github.io/nytimes/",
     },
     {
-      projectId: 5,
       name: "Global Covid-19 Tracker",
       description:
         "This website shows a snapshot of the current global pandemic (Covid-19) by country.",
       imgurl: `https://media3.giphy.com/media/Wpwq3jVvIBK9pVbQ5c/giphy.gif`,
       repourl: "https://github.com/AhmedAlihashi/covid-19-tracker",
+      url: "https://ahmedalihashi.github.io/covid-19-tracker/",
     },
     {
-      projectId: 6,
       name: "Pokedex",
       description:
         "This is an index of all the characters within the popular video game/tv series Pokémon.",
       imgurl: `https://media0.giphy.com/media/WytSQL7115G6uPwDwK/giphy.gif?cid=ecf05e47d7bod3x4hh3rz44a9ecq07c1k5v527sppviek7ph&rid=giphy.gif`,
       repourl: "https://github.com/AhmedAlihashi/pokedex",
+      url: "https://ahmedalihashi.github.io/pokedex/",
     },
     {
-      projectId: 7,
       name: "Podcast App",
       description:
         "This is a fullstack React Native application made for both IOS & Android. The app uses Google Firebase as a database and storage solution.",
       imgurl: `https://media3.giphy.com/media/VbboyCHmoUh1ulG41I/giphy.gif`,
       repourl: "https://github.com/AhmedAlihashi/Podcast-App",
+      url: null,
     },
 
     {
-      projectId: 8,
       name: "Simple Store",
       description:
         "This web app was built/deployed to demonstrate the functionality of the MERN (MongoDB, Express, React, Node.js) stack.",
       imgurl: `https://media3.giphy.com/media/8cdbH0l0s4gShDhLzl/giphy.gif?cid=ecf05e473b00jv82coinwmbd4e67k0rwjkhtbyvwr72zr2r5&rid=giphy.gif`,
       repourl: "https://github.com/AhmedAlihashi/Simple-Storefront",
+      url: "https://reactstore.herokuapp.com/#/",
     },
     {
-      projectId: 9,
       name: "Billboard Rankings Tracker",
       description:
         "This desktop Application queries billboard for either its Top 200 Greatest Albums of All-Time, or its weekly Hot 100 (based on week entered).",
       imgurl: `https://media1.giphy.com/media/xlMtfovxvoDlkTWQYz/giphy.gif`,
       repourl: "https://github.com/AhmedAlihashi/billboarders",
+      url: null,
     },
     {
-      projectId: 10,
-      name: "React Desktop App",
-      description:
-        "The purpose of the app is to provide a YouTube like experience without opening a browser.",
-      imgurl: `https://media3.giphy.com/media/kAuLRq4MpsVzyIWNpN/giphy.gif?cid=ecf05e4773ips7ikcjvvlpdlak02hq6cm74te4vs54f8opmd&rid=giphy.gif`,
-      repourl: "https://github.com/AhmedAlihashi/Slang",
-    },
-    {
-      projectId: 11,
-      name: "Contact List",
-      description:
-        "This is just a simple showcase of the functionality of Redux within React",
-      imgurl: `https://media0.giphy.com/media/fw316AXmjO0fQuecVV/giphy.gif`,
-      repourl: "https://github.com/AhmedAlihashi/contact-list",
-    },
-    {
-      projectId: 12,
       name: "Power Lv",
       description:
         "The purpose of this app is to track the fitness progress of a user and compare current progress with friends.",
       imgurl: `https://media.giphy.com/media/1eEH74omQufGNLIywJ/source.gif`,
       repourl: "https://github.com/AhmedAlihashi/PowerLV",
+      url: null,
+    },
+    {
+      name: "React Desktop App",
+      description:
+        "The purpose of the app is to provide a YouTube like experience without opening a browser.",
+      imgurl: `https://media3.giphy.com/media/kAuLRq4MpsVzyIWNpN/giphy.gif?cid=ecf05e4773ips7ikcjvvlpdlak02hq6cm74te4vs54f8opmd&rid=giphy.gif`,
+      repourl: "https://github.com/AhmedAlihashi/Slang",
+      url: null,
+    },
+    {
+      name: "Contact List",
+      description:
+        "This is just a simple showcase of the functionality of Redux within React",
+      imgurl: `https://media0.giphy.com/media/fw316AXmjO0fQuecVV/giphy.gif`,
+      repourl: "https://github.com/AhmedAlihashi/contact-list",
+      url: "https://ahmedalihashi.github.io/contact-list/",
     },
   ],
 };

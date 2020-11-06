@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { Home, Contact, Projects } from "./pages";
+import { Home, Contact, Projects, Experience } from "./pages";
 
 const App = () => {
   return (
@@ -51,6 +51,16 @@ const App = () => {
                 Projects
               </Link>
               <Link
+                to="/experience"
+                style={{
+                  marginRight: "10px",
+                  textDecoration: "none",
+                  fontSize: 20,
+                }}
+              >
+                Experience
+              </Link>
+              <Link
                 to="/contact"
                 style={{
                   marginRight: "10px",
@@ -63,7 +73,7 @@ const App = () => {
             </div>
           </div>
         </header>
-        <body
+        <div
           style={{
             height: "85vh",
             backgroundColor: "whitesmoke",
@@ -84,6 +94,9 @@ const App = () => {
               <Route exact path="/">
                 <Home />
               </Route>
+              <Route path="/experience">
+                <Experience />
+              </Route>
               <Route path="/projects">
                 <Projects />
               </Route>
@@ -92,7 +105,7 @@ const App = () => {
               </Route>
             </Switch>
           </div>
-        </body>
+        </div>
         <footer
           style={{
             height: "5vh",
