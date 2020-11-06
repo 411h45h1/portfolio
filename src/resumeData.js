@@ -86,8 +86,7 @@ const resumeData = {
       website: {
         imgurl: "https://media.giphy.com/media/jmSi1xSHBJuDfQTiEN/giphy.gif",
         repourl: null,
-        url:
-          "https://play.google.com/store/apps/details?id=com.ourends.ourendsapp",
+        url: "https://ourends.ca/",
       },
       android: {
         imgurl: `https://media.giphy.com/media/Y4bzv6DYbYzy8jDnoW/giphy.gif`,
