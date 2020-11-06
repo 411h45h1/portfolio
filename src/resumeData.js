@@ -1,6 +1,6 @@
 const resumeData = {
   name: "Ahmed Ali",
-  linkedinId: "Your LinkedIn Id",
+  linkedinId: "",
   email: "ahmedali.96@hotmail.com",
   roleDescription:
     " Looking for a front-end developer with a specialty in React Js ⚛️ and a intermediate understanding of back-end technologies 🧙🏾‍♂️, one that could also double as a UI/UX designer 🤹🏾‍♂️, or perhaps just an eager and passionate programmer 👨🏾‍💻. If this sounds like someone you're looking for, look no further!",
@@ -12,7 +12,7 @@ const resumeData = {
     },
   ],
   aboutme:
-    "I am a web developer based out of Toronto looking for his next project. My skill set / interests are primarily centered around JavaScript, React & React Native. I'd classify myself as a Front-End developer but as my projects show not afraid to jump into the backend. Currently I'm working towards sharpening my skills with regards to developing desktop applications. If you're looking for a developer who will go the distance to get the job done and grow with your team, feel free to contact me.",
+    "Hey there 👋🏾, a web developer based out of Toronto looking for his next project. My skill set / interests are primarily centered around JavaScript, React & React Native. I'd classify myself as a Front-End developer but as my projects show not afraid to jump into the backend. Currently I'm working towards sharpening my skills with regards to developing desktop applications. If you're looking for a developer who will go the distance to get the job done and grow with your team, feel free to contact me.",
   address: "Toronto, On",
 
   work: [

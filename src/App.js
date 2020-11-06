@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { Segment } from "semantic-ui-react";
 import { Home, Contact, Projects, Experience } from "./pages";
+import resumeData from "./resumeData";
 
 const App = () => {
   return (
@@ -28,7 +29,7 @@ const App = () => {
             }}
           >
             <div>
-              <h2>Ahmed Ali</h2>
+              <h2>{resumeData.name}</h2>
             </div>
             <div>
               <Link

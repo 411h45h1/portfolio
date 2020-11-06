@@ -12,13 +12,15 @@ const Home = () => {
         height: "100%",
       }}
     >
-      <div style={{ marginRight: 10 }}>
+      <div style={{ marginRight: 20 }}>
         <img
           style={{
             position: "relative",
             width: "170px",
             height: "170px",
-            borderRadius: "100%",
+            borderRadius: "20%",
+            boxShadow:
+              "-3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945)",
           }}
           src="/profilepic.jpg"
           alt="Ahmed Ali"
@@ -38,27 +40,27 @@ const Home = () => {
             <div style={{ marginTop: 10 }}>
               <h2>Core</h2>
               <img
-                title="git"
+                title="Git"
                 alt="git"
                 src="https://img.icons8.com/color/96/000000/git.png"
               />
               <img
-                title="github"
+                title="Github"
                 alt="github"
                 src="https://img.icons8.com/fluent/96/000000/github.png"
               />
               <img
-                title="html5"
+                title="Html5"
                 alt="html5"
                 src="https://img.icons8.com/color/96/000000/html-5.png"
               />
               <img
-                title="css3"
+                title="Css3"
                 alt="css3"
                 src="https://img.icons8.com/color/96/000000/css3.png"
               />
               <img
-                title="javascript"
+                title="Javascript"
                 alt="javascript"
                 src="https://img.icons8.com/color/96/000000/javascript.png"
               />
@@ -70,23 +72,23 @@ const Home = () => {
             <div>
               <h2>Primary focuses</h2>
               <img
-                title="react"
+                title="React"
                 alt="react"
                 src="https://img.icons8.com/plasticine/100/000000/react.png"
               />
               <img
-                title="react native"
+                title="React native"
                 alt="react native"
                 src="https://img.icons8.com/cute-clipart/100/000000/react-native.png"
               />
               <img
-                title="electron"
+                title="Electron"
                 alt="electron"
                 style={{ height: 80, margin: 10 }}
                 src="https://upload.wikimedia.org/wikipedia/commons/9/91/Electron_Software_Framework_Logo.svg"
               />
               <img
-                title="redux"
+                title="Redux"
                 alt="redux"
                 src="https://img.icons8.com/color/96/000000/redux.png"
               />
@@ -104,17 +106,17 @@ const Home = () => {
                 src="https://img.icons8.com/color/96/000000/nodejs.png"
               />
               <img
-                title="mongoDB"
+                title="MongoDB"
                 alt="mongoDB"
                 src="https://img.icons8.com/color/96/000000/mongodb.png"
               />
               <img
-                title="firebase"
+                title="Firebase"
                 alt="firebase"
                 src="https://img.icons8.com/color/96/000000/firebase.png"
               />
               <img
-                title="express"
+                title="Express"
                 alt="express"
                 style={{ height: 80, margin: 5 }}
                 src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
@@ -126,22 +128,22 @@ const Home = () => {
             <div>
               <h2>Familiar workflow tech</h2>
               <img
-                title="jira"
+                title="Jira"
                 alt="jira"
                 src="https://img.icons8.com/color/96/000000/jira.png"
               />
               <img
-                title="trello"
+                title="Trello"
                 alt="trello"
                 src="https://img.icons8.com/color/96/000000/trello.png"
               />
               <img
-                title="urce tree"
+                title="Source tree"
                 alt="source tree"
                 src="https://img.icons8.com/windows/96/000000/sourcetree.png"
               />
               <img
-                title="slack"
+                title="Slack"
                 alt="slack"
                 src="https://img.icons8.com/officel/80/000000/slack.png"
               />

@@ -116,7 +116,6 @@ const ProjectSection = () => {
               {dataObj.android.url !== null ? (
                 <Button
                   icon="google play"
-                  compact
                   size="large"
                   as="a"
                   href={dataObj.android.url}
