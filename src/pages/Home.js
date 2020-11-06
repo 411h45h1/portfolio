@@ -22,7 +22,7 @@ const Home = () => {
             boxShadow:
               "-3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945)",
           }}
-          src="/profilepic.jpg"
+          src="./profilepic.jpg"
           alt="Ahmed Ali"
         />
       </div>

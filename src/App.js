@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import { Icon, Segment } from "semantic-ui-react";
 import { Home, Contact, Projects, Experience } from "./pages";
 import resumeData from "./resumeData";
@@ -102,7 +102,7 @@ const App = () => {
             }}
           >
             <Switch>
-              <Route exact path="/">
+              <Route exact strict path="/">
                 <Home />
               </Route>
               <Route path="/experience">
