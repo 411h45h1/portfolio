@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import { Card } from "semantic-ui-react";
 import { ProjectSection } from "../components";
+import { Media } from "../core/media";
 import resumeData from "../resumeData";
 
 const Projects = () => {
@@ -37,7 +38,12 @@ const Projects = () => {
           <h3>Please select a project above.</h3>
         </Route>
         <Route path={`${path}/:projectName`}>
-          <ProjectSection />
+          <Media at="mobile">
+            <ProjectSection mobile />
+          </Media>
+          <Media greaterThan="mobile">
+            <ProjectSection />
+          </Media>
         </Route>
       </Switch>
     </Router>

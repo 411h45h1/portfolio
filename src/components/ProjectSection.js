@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { Button, Icon, Label, Segment } from "semantic-ui-react";
 import resumeData from "../resumeData";
 
-const ProjectSection = () => {
+const ProjectSection = ({ mobile }) => {
   let { projectName } = useParams();
 
   const dataObj = resumeData.portfolio.find((obj) => {
@@ -17,7 +17,7 @@ const ProjectSection = () => {
     <div
       style={{
         display: "flex",
-        flexDirection: "row",
+        flexDirection: mobile ? "column" : "row",
         justifyContent: "space-between",
         alignItems: "flex-start",
       }}
@@ -27,11 +27,12 @@ const ProjectSection = () => {
         inverted
         color="grey"
         style={{
-          width: "40%",
+          width: mobile ? "100%" : "40%",
           margin: 0,
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
+          marginBottom: mobile ? 10 : null,
         }}
       >
         {dataObj.imgurl && (
@@ -46,7 +47,12 @@ const ProjectSection = () => {
             <img
               alt="cartoon preview"
               src={dataObj.imgurl}
-              style={{ height: "100%", width: "100%" }}
+              style={{
+                height: "100%",
+                width: "100%",
+                maxHeight: "300px",
+                maxWidth: "300px",
+              }}
             />
           </div>
         )}
@@ -144,7 +150,7 @@ const ProjectSection = () => {
           )}
         </div>
       </Segment>
-      <Segment compact style={{ width: "50%", margin: 0 }}>
+      <Segment compact style={{ width: mobile ? "100%" : "50%", margin: 0 }}>
         <h2>{name}</h2>
         <p style={{ fontSize: 18 }}>{description}</p>
       </Segment>

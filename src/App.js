@@ -1,10 +1,9 @@
 import React from "react";
-import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { Icon, Segment } from "semantic-ui-react";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { Segment } from "semantic-ui-react";
 import { Header } from "./components";
 import { Media, MediaContextProvider } from "./core/media";
 import { Home, Contact, Projects, Experience } from "./pages";
-import resumeData from "./resumeData";
 
 const App = () => {
   return (
