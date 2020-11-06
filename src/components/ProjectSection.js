@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { Icon, Label, Segment } from "semantic-ui-react";
+import { Button, Icon, Label, Segment } from "semantic-ui-react";
 import resumeData from "../resumeData";
 
 const ProjectSection = () => {
@@ -88,12 +88,19 @@ const ProjectSection = () => {
               <img
                 alt="android"
                 src={dataObj.android.imgurl}
-                style={{ height: "100px", width: "100px" }}
+                style={{ height: "90px", width: "90px" }}
               />
+
+              <img
+                alt="World wide web"
+                src={dataObj.website.imgurl}
+                style={{ height: "60px", width: "60px" }}
+              />
+
               <img
                 alt="ios"
                 src={dataObj.ios.imgurl}
-                style={{ height: "100px", width: "100px" }}
+                style={{ height: "90px", width: "90px" }}
               />
             </div>
           ) : null}
@@ -107,14 +114,32 @@ const ProjectSection = () => {
               }}
             >
               {dataObj.android.url !== null ? (
-                <Label as="a" href={dataObj.android.url} target="_blank">
-                  <Icon name="google play" size="large" /> Play Store
-                </Label>
+                <Button
+                  icon="google play"
+                  compact
+                  size="large"
+                  as="a"
+                  href={dataObj.android.url}
+                  target="_blank"
+                />
+              ) : null}
+              {dataObj.website.url !== null ? (
+                <Button
+                  icon="world"
+                  size="large"
+                  as="a"
+                  href={dataObj.website.url}
+                  target="_blank"
+                />
               ) : null}
               {dataObj.ios.url !== null ? (
-                <Label as="a" href={dataObj.ios.url} target="_blank">
-                  <Icon name="app store ios" size="large" /> App Store
-                </Label>
+                <Button
+                  icon="app store ios"
+                  size="large"
+                  as="a"
+                  href={dataObj.ios.url}
+                  target="_blank"
+                />
               ) : null}
             </div>
           )}

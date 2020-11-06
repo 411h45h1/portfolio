@@ -2,17 +2,6 @@ import React from "react";
 import resumeData from "../resumeData";
 
 const Home = () => {
-  /* <div>
-            <h2>Contact Details</h2>
-            <p>
-              <span>{resumeData.name}</span>
-              <br></br>
-              <span>{resumeData.address}</span>
-              <br></br>
-              <span>{resumeData.email}</span>
-            </p>
-          </div> */
-
   return (
     <div
       style={{

@@ -79,9 +79,16 @@ const resumeData = {
   portfolio: [
     {
       name: "Our Ends",
-      description: " This is the ios app version of ourends.ca",
+      description:
+        "I was given the opportunity to develop all of the web based tools needed by their blog. This included a website, an android & ios app and a windows/macOs dashboard app for CRUD operations.",
       url: null,
       repourl: null,
+      website: {
+        imgurl: "https://media.giphy.com/media/jmSi1xSHBJuDfQTiEN/giphy.gif",
+        repourl: null,
+        url:
+          "https://play.google.com/store/apps/details?id=com.ourends.ourendsapp",
+      },
       android: {
         imgurl: `https://media.giphy.com/media/Y4bzv6DYbYzy8jDnoW/giphy.gif`,
         repourl: null,
@@ -93,23 +100,6 @@ const resumeData = {
         repourl: null,
         url: "https://apps.apple.com/us/app/our-ends/id1537892808",
       },
-    },
-
-    {
-      name: "Blog App",
-      description:
-        "This project uses React Native to display the contents of a blog and Electron to act as the content managemnet system.",
-      imgurl: `https://i.imgur.com/1irEscM.gif`,
-      repourl: "https://github.com/AhmedAlihashi/blog",
-      url: null,
-    },
-    {
-      name: "Noted",
-      description:
-        "This project is a note taking application that uses Google Firebase Auth to provide user authentication and Firestore as a database solution.",
-      imgurl: `https://media3.giphy.com/media/JmJlebKKwiJYmmpQGZ/giphy.gif?cid=ecf05e47uochwyhgvl4pqz1yg882t1clco02jbkwa36m29xt&rid=giphy.gif`,
-      repourl: "https://github.com/AhmedAlihashi/noted",
-      url: "https://noted-55f73.web.app",
     },
     {
       name: "The New York Times Snapshot",
@@ -136,6 +126,22 @@ const resumeData = {
       url: "https://ahmedalihashi.github.io/pokedex/",
     },
     {
+      name: "Blog App",
+      description:
+        "This project uses React Native to display the contents of a blog and Electron to act as the content managemnet system.",
+      imgurl: `https://i.imgur.com/1irEscM.gif`,
+      repourl: "https://github.com/AhmedAlihashi/blog",
+      url: null,
+    },
+    {
+      name: "Noted",
+      description:
+        "This project is a note taking application that uses Google Firebase Auth to provide user authentication and Firestore as a database solution.",
+      imgurl: `https://media3.giphy.com/media/JmJlebKKwiJYmmpQGZ/giphy.gif?cid=ecf05e47uochwyhgvl4pqz1yg882t1clco02jbkwa36m29xt&rid=giphy.gif`,
+      repourl: "https://github.com/AhmedAlihashi/noted",
+      url: "https://noted-55f73.web.app",
+    },
+    {
       name: "Podcast App",
       description:
         "This is a fullstack React Native application made for both IOS & Android. The app uses Google Firebase as a database and storage solution.",
@@ -143,7 +149,6 @@ const resumeData = {
       repourl: "https://github.com/AhmedAlihashi/Podcast-App",
       url: null,
     },
-
     {
       name: "Simple Store",
       description:
