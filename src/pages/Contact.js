@@ -6,11 +6,9 @@ const Contact = () => {
     <div>
       <h2>Contact Details</h2>
       <p style={{ fontSize: 20 }}>
-        <span>{resumeData.name}</span>
+        <span>{resumeData.email}</span>
         <br></br>
         <span>{resumeData.address}</span>
-        <br></br>
-        <span>{resumeData.email}</span>
       </p>
     </div>
   );

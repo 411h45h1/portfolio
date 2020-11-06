@@ -38,22 +38,27 @@ const Home = () => {
             <div style={{ marginTop: 10 }}>
               <h2>Core</h2>
               <img
+                title="git"
                 alt="git"
                 src="https://img.icons8.com/color/96/000000/git.png"
               />
               <img
+                title="github"
                 alt="github"
                 src="https://img.icons8.com/fluent/96/000000/github.png"
               />
               <img
+                title="html5"
                 alt="html5"
                 src="https://img.icons8.com/color/96/000000/html-5.png"
               />
               <img
+                title="css3"
                 alt="css3"
                 src="https://img.icons8.com/color/96/000000/css3.png"
               />
               <img
+                title="javascript"
                 alt="javascript"
                 src="https://img.icons8.com/color/96/000000/javascript.png"
               />
@@ -65,19 +70,23 @@ const Home = () => {
             <div>
               <h2>Primary focuses</h2>
               <img
+                title="react"
                 alt="react"
                 src="https://img.icons8.com/plasticine/100/000000/react.png"
               />
               <img
+                title="react native"
                 alt="react native"
                 src="https://img.icons8.com/cute-clipart/100/000000/react-native.png"
               />
               <img
+                title="electron"
                 alt="electron"
                 style={{ height: 80, margin: 10 }}
                 src="https://upload.wikimedia.org/wikipedia/commons/9/91/Electron_Software_Framework_Logo.svg"
               />
               <img
+                title="redux"
                 alt="redux"
                 src="https://img.icons8.com/color/96/000000/redux.png"
               />
@@ -90,18 +99,22 @@ const Home = () => {
               <h2>Backend & Database tech</h2>
 
               <img
-                alt="node.js"
+                title="Node.js"
+                alt="Node JS"
                 src="https://img.icons8.com/color/96/000000/nodejs.png"
               />
               <img
+                title="mongoDB"
                 alt="mongoDB"
                 src="https://img.icons8.com/color/96/000000/mongodb.png"
               />
               <img
+                title="firebase"
                 alt="firebase"
                 src="https://img.icons8.com/color/96/000000/firebase.png"
               />
               <img
+                title="express"
                 alt="express"
                 style={{ height: 80, margin: 5 }}
                 src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
@@ -113,18 +126,22 @@ const Home = () => {
             <div>
               <h2>Familiar workflow tech</h2>
               <img
+                title="jira"
                 alt="jira"
                 src="https://img.icons8.com/color/96/000000/jira.png"
               />
               <img
+                title="trello"
                 alt="trello"
                 src="https://img.icons8.com/color/96/000000/trello.png"
               />
               <img
+                title="urce tree"
                 alt="source tree"
                 src="https://img.icons8.com/windows/96/000000/sourcetree.png"
               />
               <img
+                title="slack"
                 alt="slack"
                 src="https://img.icons8.com/officel/80/000000/slack.png"
               />
@@ -135,14 +152,17 @@ const Home = () => {
             <div>
               <h2>Familiar design & Prototyping software </h2>
               <img
+                title="XD"
                 alt="adobe xd"
                 src="https://img.icons8.com/color/96/000000/adobe-xd.png"
               />
               <img
+                title="illustrator"
                 alt="adobe illustrator"
                 src="https://img.icons8.com/color/96/000000/adobe-illustrator.png"
               />
               <img
+                title="invision"
                 alt="invision"
                 src="https://img.icons8.com/windows/96/000000/invision.png"
               />
