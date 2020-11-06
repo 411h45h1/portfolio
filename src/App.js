@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Segment } from "semantic-ui-react";
 import { Home, Contact, Projects, Experience } from "./pages";
 
 const App = () => {
@@ -79,7 +80,7 @@ const App = () => {
             backgroundColor: "whitesmoke",
           }}
         >
-          <div
+          <Segment
             style={{
               margin: "10px",
               height: "90%",
@@ -88,6 +89,7 @@ const App = () => {
               boxShadow:
                 "-3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945)",
               padding: "20px",
+              overflowY: "scroll",
             }}
           >
             <Switch>
@@ -104,7 +106,7 @@ const App = () => {
                 <Contact />
               </Route>
             </Switch>
-          </div>
+          </Segment>
         </div>
         <footer
           style={{
