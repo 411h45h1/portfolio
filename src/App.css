@@ -1,0 +1,11 @@
+#Name {
+  cursor: default;
+}
+
+#githubLink {
+  color: gray;
+}
+
+#githubLink :hover {
+  color: black;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { Segment } from "semantic-ui-react";
+import { Icon, Segment } from "semantic-ui-react";
 import { Home, Contact, Projects, Experience } from "./pages";
 import resumeData from "./resumeData";
 
@@ -17,74 +17,82 @@ const App = () => {
           style={{
             height: "10vh",
             backgroundColor: "silver",
+
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+            flexDirection: "row",
+            padding: "0 15px 0 15px",
           }}
         >
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              alignItems: "center",
-              flexDirection: "row",
-              margin: "15px 15px 0 15px",
-            }}
-          >
-            <div>
-              <h2>{resumeData.name}</h2>
-            </div>
-            <div>
-              <Link
-                to="/"
-                style={{
-                  marginRight: "10px",
-                  textDecoration: "none",
-                  fontSize: 20,
-                }}
-              >
-                Home
-              </Link>
-              <Link
-                to="/projects"
-                style={{
-                  marginRight: "10px",
-                  textDecoration: "none",
-                  fontSize: 20,
-                }}
-              >
-                Projects
-              </Link>
-              <Link
-                to="/experience"
-                style={{
-                  marginRight: "10px",
-                  textDecoration: "none",
-                  fontSize: 20,
-                }}
-              >
-                Experience
-              </Link>
-              <Link
-                to="/contact"
-                style={{
-                  marginRight: "10px",
-                  textDecoration: "none",
-                  fontSize: 20,
-                }}
-              >
-                Contact
-              </Link>
-            </div>
+          <div>
+            <h1 id="Name">{resumeData.name}</h1>
+          </div>
+          <div>
+            <Link
+              to="/"
+              style={{
+                marginRight: "10px",
+                textDecoration: "none",
+                fontSize: 20,
+              }}
+            >
+              Home
+            </Link>
+            <Link
+              to="/projects"
+              style={{
+                marginRight: "10px",
+                textDecoration: "none",
+                fontSize: 20,
+              }}
+            >
+              Projects
+            </Link>
+            <Link
+              to="/experience"
+              style={{
+                marginRight: "10px",
+                textDecoration: "none",
+                fontSize: 20,
+              }}
+            >
+              Experience
+            </Link>
+            <Link
+              to="/contact"
+              style={{
+                marginRight: "10px",
+                textDecoration: "none",
+                fontSize: 20,
+              }}
+            >
+              Contact
+            </Link>
+            <a
+              href="https://github.com/AhmedAlihashi"
+              target="_blank"
+              rel="noreferrer"
+              id="githubLink"
+            >
+              <Icon
+                name="github square"
+                size="big"
+                //
+              />
+            </a>
           </div>
         </header>
         <div
           style={{
-            height: "85vh",
+            height: "90vh",
             backgroundColor: "whitesmoke",
           }}
         >
           <Segment
             style={{
               margin: "10px",
-              height: "90%",
+              height: "95%",
               background: "#dde1e7",
               borderRadius: "5px",
               boxShadow:
@@ -109,12 +117,6 @@ const App = () => {
             </Switch>
           </Segment>
         </div>
-        <footer
-          style={{
-            height: "5vh",
-            backgroundColor: "silver",
-          }}
-        ></footer>
       </div>
     </Router>
   );
