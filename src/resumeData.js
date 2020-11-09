@@ -80,7 +80,7 @@ const resumeData = {
     {
       name: "Our Ends",
       description:
-        "I was given the opportunity to develop all of the web based tools needed by their blog. This included a website, an android & ios app and a windows/macOs dashboard app for CRUD operations.",
+        "I was given the opportunity to develop all of the web based tools needed by their blog. This included a website, an android & ios app and a windows app for CRUD operations.",
       url: null,
       repourl: null,
       website: {
@@ -107,6 +107,8 @@ const resumeData = {
       imgurl: `https://media3.giphy.com/media/kI91JqYXz3I8DFs5fx/giphy.gif`,
       repourl: "https://github.com/AhmedAlihashi/nytimes",
       url: "https://ahmedalihashi.github.io/nytimes/",
+      prePackagedUrl:
+        "https://drive.google.com/file/d/1T3rpNWmfgOPKD_5EBAT9rD0j9iJVBn9l/view?usp=sharing",
     },
     {
       name: "Global Covid-19 Tracker",
@@ -115,6 +117,8 @@ const resumeData = {
       imgurl: `https://media3.giphy.com/media/Wpwq3jVvIBK9pVbQ5c/giphy.gif`,
       repourl: "https://github.com/AhmedAlihashi/covid-19-tracker",
       url: "https://ahmedalihashi.github.io/covid-19-tracker/",
+      prePackagedUrl:
+        "https://drive.google.com/file/d/1SROxaMdi_fokQ-FBZtNTICWwCq8osU_K/view?usp=sharing",
     },
     {
       name: "Pokedex",
@@ -123,6 +127,8 @@ const resumeData = {
       imgurl: `https://media0.giphy.com/media/WytSQL7115G6uPwDwK/giphy.gif?cid=ecf05e47d7bod3x4hh3rz44a9ecq07c1k5v527sppviek7ph&rid=giphy.gif`,
       repourl: "https://github.com/AhmedAlihashi/pokedex",
       url: "https://ahmedalihashi.github.io/pokedex/",
+      prePackagedUrl:
+        "https://drive.google.com/file/d/1_tnUK_Zsm0JTbYhZ0o5Sq28RZJ72NkRm/view?usp=sharing",
     },
     {
       name: "Blog App",
@@ -139,6 +145,8 @@ const resumeData = {
       imgurl: `https://media3.giphy.com/media/JmJlebKKwiJYmmpQGZ/giphy.gif?cid=ecf05e47uochwyhgvl4pqz1yg882t1clco02jbkwa36m29xt&rid=giphy.gif`,
       repourl: "https://github.com/AhmedAlihashi/noted",
       url: "https://noted-55f73.web.app",
+      prePackagedUrl:
+        "https://drive.google.com/file/d/1D6UhwbHirGhFXa-5_PUjJLSFWn1XPTT2/view?usp=sharing",
     },
     {
       name: "Podcast App",
@@ -163,6 +171,8 @@ const resumeData = {
       imgurl: `https://media1.giphy.com/media/xlMtfovxvoDlkTWQYz/giphy.gif`,
       repourl: "https://github.com/AhmedAlihashi/billboarders",
       url: null,
+      prePackagedUrl:
+        "https://drive.google.com/file/d/1-oPqrF7NPneBdBkOYk29uO589Rm1irwb/view?usp=sharing",
     },
     {
       name: "Power Lv",
@@ -179,6 +189,8 @@ const resumeData = {
       imgurl: `https://media3.giphy.com/media/kAuLRq4MpsVzyIWNpN/giphy.gif?cid=ecf05e4773ips7ikcjvvlpdlak02hq6cm74te4vs54f8opmd&rid=giphy.gif`,
       repourl: "https://github.com/AhmedAlihashi/Slang",
       url: null,
+      prePackagedUrl:
+        "https://drive.google.com/file/d/1cdKLCo8rocOPNxMi_ki67kp-hBwYmZYX/view?usp=sharing",
     },
     {
       name: "Contact List",

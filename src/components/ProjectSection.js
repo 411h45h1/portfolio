@@ -76,6 +76,11 @@ const ProjectSection = ({ mobile }) => {
                 <Icon name="world" size="large" /> Live Site
               </Label>
             ) : null}
+            {dataObj.prePackagedUrl && (
+              <Label as="a" href={dataObj.prePackagedUrl} target="_blank">
+                <Icon name="windows" size="large" /> Zipped windows app
+              </Label>
+            )}
             {dataObj.repourl !== null ? (
               <Label as="a" href={dataObj.repourl} target="_blank">
                 <Icon name="github" size="large" /> Repository
