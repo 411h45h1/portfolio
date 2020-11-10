@@ -22,9 +22,8 @@ const Header = ({ flexDirection, linkSize }) => {
       <div>
         <Link
           to="/"
+          id="Links"
           style={{
-            marginRight: "10px",
-            textDecoration: "none",
             fontSize: linkSize,
           }}
         >
@@ -32,9 +31,8 @@ const Header = ({ flexDirection, linkSize }) => {
         </Link>
         <Link
           to="/projects"
+          id="Links"
           style={{
-            marginRight: "10px",
-            textDecoration: "none",
             fontSize: linkSize,
           }}
         >
@@ -42,9 +40,8 @@ const Header = ({ flexDirection, linkSize }) => {
         </Link>
         <Link
           to="/experience"
+          id="Links"
           style={{
-            marginRight: "10px",
-            textDecoration: "none",
             fontSize: linkSize,
           }}
         >
@@ -52,9 +49,8 @@ const Header = ({ flexDirection, linkSize }) => {
         </Link>
         <Link
           to="/contact"
+          id="Links"
           style={{
-            marginRight: "10px",
-            textDecoration: "none",
             fontSize: linkSize,
           }}
         >

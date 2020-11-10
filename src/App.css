@@ -10,5 +10,15 @@
   color: black;
 }
 
+#Links {
+  margin-right: 10px;
+  text-decoration: none;
+  color: dimgray;
+}
+
+#Links:hover {
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+    0px -5px 35px rgba(255, 255, 255, 0.3);
+}
 /* @media only screen and (max-width: 550px) {
 } */
