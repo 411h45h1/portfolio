@@ -7,9 +7,9 @@ const Experience = () => {
       <h1>Experience</h1>
 
       <div>
-        {resumeData.work.map((item) => {
+        {resumeData.work.map((item, k) => {
           return (
-            <div>
+            <div key={k}>
               <h1
                 style={{
                   marginTop: 10,

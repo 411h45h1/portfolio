@@ -26,8 +26,8 @@ const Projects = () => {
           padding: "5px",
         }}
       >
-        {resumeData.portfolio.map((i) => (
-          <Link to={`${url}/${i.name}`} style={{ marginRight: "50px" }}>
+        {resumeData.portfolio.map((i, k) => (
+          <Link key={k} to={`${url}/${i.name}`} style={{ marginRight: "50px" }}>
             {i.name}
           </Link>
         ))}
