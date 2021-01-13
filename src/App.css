@@ -1,9 +1,10 @@
 #Name {
   cursor: default;
+  color: white;
 }
 
 #githubLink {
-  color: gray;
+  color: #add9f4;
 }
 
 #githubLink :hover {
@@ -11,12 +12,13 @@
 }
 
 #Links {
-  margin-right: 10px;
+  margin: 10px;
   text-decoration: none;
-  color: dimgray;
+  color: white;
 }
 
 #Links:hover {
+  color: gray;
   text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
     0px -5px 35px rgba(255, 255, 255, 0.3);
 }

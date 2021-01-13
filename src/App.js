@@ -7,36 +7,28 @@ import { Home, Contact, Projects, Experience } from "./pages";
 
 const App = () => {
   return (
-    <Router>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-        }}
-      >
-        <MediaContextProvider>
-          <Media at="mobile">
-            <Header flexDirection="column" linkSize={14} />
-          </Media>
-
-          <Media greaterThan="mobile">
-            <Header flexDirection="row" linkSize={25} />
-          </Media>
-
+    <MediaContextProvider>
+      <Router>
+        <Media at="mobile">
           <div
             style={{
-              height: "90vh",
-              backgroundColor: "whitesmoke",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              height: "100vh",
+              backgroundColor: "#F0E6BC",
             }}
           >
+            <Header linkSize={20} />
+
             <Segment
               style={{
                 margin: "10px",
-                height: "95%",
-                background: "#dde1e7",
-                borderRadius: "5px",
-                boxShadow:
-                  "-3px -3px 7px #ffffffb2, 3px 3px 5px rgba(94, 104, 121, 0.945)",
+                height: "94vh",
+
+                background: "#95C3C6",
+                borderRadius: 15,
+                border: "5px solid black",
                 padding: "20px",
                 overflowY: "scroll",
               }}
@@ -57,9 +49,58 @@ const App = () => {
               </Switch>
             </Segment>
           </div>
-        </MediaContextProvider>
-      </div>
-    </Router>
+        </Media>
+        <Media greaterThan="mobile">
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              alignItems: "center",
+              height: "100vh",
+              backgroundColor: "#F0E6BC",
+            }}
+          >
+            <Header linkSize={25} />
+
+            <div
+              style={{
+                height: "97vh",
+              }}
+            >
+              <Segment
+                style={{
+                  margin: "10px",
+                  height: "94vh",
+                  position: "absolute",
+                  left: 200,
+                  right: 0,
+                  background: "#95C3C6",
+                  borderRadius: 15,
+                  border: "5px solid black",
+                  padding: "20px",
+                  overflowY: "scroll",
+                }}
+              >
+                <Switch>
+                  <Route exact strict path="/">
+                    <Home />
+                  </Route>
+                  <Route path="/experience">
+                    <Experience />
+                  </Route>
+                  <Route path="/projects">
+                    <Projects />
+                  </Route>
+                  <Route path="/contact">
+                    <Contact />
+                  </Route>
+                </Switch>
+              </Segment>
+            </div>
+          </div>
+        </Media>
+      </Router>
+    </MediaContextProvider>
   );
 };
 

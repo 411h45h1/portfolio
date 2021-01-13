@@ -1,5 +1,5 @@
 import React from "react";
-import Me from "../../images/profilepic.jpg";
+// import Me from "../../images/profilepic.jpg";
 import resumeData from "../../resumeData";
 
 const HomeSection = ({
@@ -19,7 +19,7 @@ const HomeSection = ({
         margin: mobile ? -10 : null,
       }}
     >
-      <div style={{ marginRight: 20 }}>
+      {/* <div style={{ marginRight: 20 }}>
         <img
           style={{
             position: "relative",
@@ -32,7 +32,7 @@ const HomeSection = ({
           src={Me}
           alt="Ahmed Ali"
         />
-      </div>
+      </div> */}
 
       <div>
         <div>

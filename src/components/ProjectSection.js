@@ -68,7 +68,9 @@ const ProjectSection = ({ mobile }) => {
             style={{
               display: "flex",
               flexDirection: "row",
-              justifyContent: "space-between",
+              justifyContent: "space-evenly",
+
+              flexWrap: "wrap",
             }}
           >
             {dataObj.url !== null ? (
@@ -93,7 +95,8 @@ const ProjectSection = ({ mobile }) => {
               style={{
                 display: "flex",
                 alignItems: "center",
-                justifyContent: "space-between",
+                justifyContent: "space-evenly",
+                flexWrap: "wrap",
               }}
             >
               <img
@@ -121,7 +124,8 @@ const ProjectSection = ({ mobile }) => {
               style={{
                 display: "flex",
                 flexDirection: "row",
-                justifyContent: "space-between",
+                justifyContent: "space-evenly",
+                flexWrap: "wrap",
               }}
             >
               {dataObj.android.url !== null ? (

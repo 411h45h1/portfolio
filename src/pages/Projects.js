@@ -12,7 +12,7 @@ import { Media } from "../core/media";
 import resumeData from "../resumeData";
 
 const Projects = () => {
-  let { path, url } = useRouteMatch();
+  let { path } = useRouteMatch();
 
   return (
     <Router>
@@ -27,7 +27,7 @@ const Projects = () => {
         }}
       >
         {resumeData.portfolio.map((i, k) => (
-          <Link key={k} to={`${url}/${i.name}`} style={{ marginRight: "50px" }}>
+          <Link key={k} to={i.name} style={{ marginRight: "50px" }}>
             {i.name}
           </Link>
         ))}
