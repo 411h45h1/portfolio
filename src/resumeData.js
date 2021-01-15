@@ -1,3 +1,5 @@
+import pernGif from "./images/demo.gif";
+
 const resumeData = {
   name: "Ahmed Ali",
   linkedinId: "",
@@ -129,6 +131,14 @@ const resumeData = {
       url: "https://ahmedalihashi.github.io/pokedex/",
       prePackagedUrl:
         "https://drive.google.com/file/d/1_tnUK_Zsm0JTbYhZ0o5Sq28RZJ72NkRm/view?usp=sharing",
+    },
+    {
+      name: "PERN Stack Note Taker",
+      description:
+        "This is a simple note taking app that uses PostgreSQL, Express, React and Node.js ",
+      imgurl: pernGif,
+      repourl: "https://github.com/AhmedAlihashi/PostgreSQL-Note-Taker",
+      url: null,
     },
     {
       name: "Blog App",
