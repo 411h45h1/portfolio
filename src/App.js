@@ -25,6 +25,7 @@ const App = () => {
               style={{
                 margin: "10px",
                 height: "94vh",
+                width: "95vw",
 
                 background: "#95C3C6",
                 borderRadius: 15,
