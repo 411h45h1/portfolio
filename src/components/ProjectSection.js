@@ -69,22 +69,49 @@ const ProjectSection = ({ mobile }) => {
               display: "flex",
               flexDirection: "row",
               justifyContent: "space-evenly",
-
+              alignItems: "center",
               flexWrap: "wrap",
             }}
           >
             {dataObj.url !== null ? (
-              <Label as="a" href={dataObj.url} target="_blank">
+              <Label
+                as="a"
+                href={dataObj.url}
+                target="_blank"
+                id="projectLinks"
+              >
                 <Icon name="world" size="large" /> Live Site
               </Label>
             ) : null}
+
+            {dataObj.altUrl && (
+              <Label
+                as="a"
+                href={dataObj.altUrl}
+                target="_blank"
+                id="projectLinks"
+              >
+                <Icon name="world" size="large" /> Alternate site
+              </Label>
+            )}
+
             {dataObj.prePackagedUrl && (
-              <Label as="a" href={dataObj.prePackagedUrl} target="_blank">
+              <Label
+                as="a"
+                href={dataObj.prePackagedUrl}
+                target="_blank"
+                id="projectLinks"
+              >
                 <Icon name="windows" size="large" /> Zipped windows app
               </Label>
             )}
             {dataObj.repourl !== null ? (
-              <Label as="a" href={dataObj.repourl} target="_blank">
+              <Label
+                as="a"
+                href={dataObj.repourl}
+                target="_blank"
+                id="projectLinks"
+              >
                 <Icon name="github" size="large" /> Repository
               </Label>
             ) : null}

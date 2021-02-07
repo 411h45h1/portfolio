@@ -105,10 +105,11 @@ const resumeData = {
     {
       name: "The New York Times Snapshot",
       description:
-        "This is an app that displays the most viewed,shared and emailed articles of the last 30 days from The New York Times using their api.",
+        "This is an app that displays the most viewed, shared and emailed articles of the last 30 days from The New York Times using their developer api. The alternate version is the same app but using the animation library Framer motin. ",
       imgurl: `https://media3.giphy.com/media/kI91JqYXz3I8DFs5fx/giphy.gif`,
       repourl: "https://github.com/AhmedAlihashi/nytimes",
       url: "https://ahmedalihashi.github.io/nytimes/",
+      altUrl: "https://ahmedalihashi.github.io/nytimes_framer",
       prePackagedUrl:
         "https://drive.google.com/file/d/1T3rpNWmfgOPKD_5EBAT9rD0j9iJVBn9l/view?usp=sharing",
     },
@@ -184,14 +185,14 @@ const resumeData = {
       prePackagedUrl:
         "https://drive.google.com/file/d/1-oPqrF7NPneBdBkOYk29uO589Rm1irwb/view?usp=sharing",
     },
-    {
-      name: "Power Lv",
-      description:
-        "The purpose of this app is to track the fitness progress of a user and compare current progress with friends.",
-      imgurl: `https://media.giphy.com/media/1eEH74omQufGNLIywJ/source.gif`,
-      repourl: "https://github.com/AhmedAlihashi/PowerLV",
-      url: null,
-    },
+    // {
+    //   name: "Power Lv",
+    //   description:
+    //     "The purpose of this app is to track the fitness progress of a user and compare current progress with friends.",
+    //   imgurl: `https://media.giphy.com/media/1eEH74omQufGNLIywJ/source.gif`,
+    //   repourl: "https://github.com/AhmedAlihashi/PowerLV",
+    //   url: null,
+    // },
     {
       name: "React Desktop App",
       description:
